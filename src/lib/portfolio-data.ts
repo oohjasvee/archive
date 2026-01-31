@@ -7,7 +7,7 @@ export const portfolioData = {
     resume: "/assets/resume.pdf",
     linkedin: "https://linkedin.com/in/ojasvi-raina",
     email: "mailto:ojasvi24@iiserb.ac.in",
-    github: "https://github.com/",
+    github: "https://github.com/oohjasvee",
   },
   education: [
     {
