@@ -1,70 +1,79 @@
+
 export const portfolioData = {
-  name: "Jane Doe",
-  tagline: "Software Engineer & AI Researcher",
-  about: "A passionate and driven software engineer with a knack for building elegant and efficient solutions. I thrive in collaborative environments and am always eager to learn new technologies and take on challenging problems. My interests lie in full-stack development, machine learning, and creating impactful products.",
+  name: "Ojasvi Raina",
+  tagline: "Earth and Environmental Sciences Student | Writer | Creative Leader",
+  about: "A dedicated student of Earth and Environmental Sciences at IISER Bhopal, with a minor in Biology. Passionate about atmospheric thermodynamics, geochemistry, and geology. Experienced content writer for social, cultural, and environmental themes. Active in leadership roles, including founding an NGO to teach underprivileged students and managing creative content for a college club.",
   links: {
     resume: "/assets/resume.pdf",
-    linkedin: "https://www.linkedin.com/in/",
-    email: "mailto:jane.doe@example.com",
+    linkedin: "https://linkedin.com/in/ojasvi-raina",
+    email: "mailto:ojasvi24@iiserb.ac.in",
     github: "https://github.com/",
   },
   education: [
     {
-      degree: "Master of Science in Computer Science",
-      university: "Stanford University",
-      period: "2021 - 2023",
-      description: "Specialized in Artificial Intelligence. Thesis on generative models for creative content."
+      degree: "BS–MS Earth and Environmental Sciences (Major), Biology (Minor)",
+      university: "Indian Institute of Science Education and Research Bhopal",
+      period: "2024 – Present",
+      description: "CGPA: 7.62. Key Courses: Geochemistry, Atmospheric Sciences, Oceanography, Geology, Biodiversity, Quantum Mechanics, Rock Petroleum."
     },
     {
-      degree: "Bachelor of Science in Computer Engineering",
-      university: "University of Waterloo",
-      period: "2017 - 2021",
-      description: "Graduated with Distinction. President of the AI and Robotics Club."
+      degree: "Class XII",
+      university: "Central Board of Secondary Education (CBSE)",
+      period: "2024",
+      description: "Graduated with 94.5%."
+    },
+    {
+      degree: "Class X",
+      university: "Central Board of Secondary Education (CBSE)",
+      period: "2022",
+      description: "Graduated with 93.5%."
     }
   ],
   experience: [
     {
-      title: "Software Engineer Intern",
-      company: "Innovate Inc.",
-      period: "Summer 2022",
+      title: "Reading Project: Atmospheric Thermodynamics",
+      company: "IISER Bhopal",
+      period: "2025",
       description: [
-        "Developed and maintained features for a large-scale data processing pipeline using Python and Go.",
-        "Improved system reliability by 20% through implementing a robust automated testing suite.",
-        "Collaborated with a team of 12 engineers in an agile development environment."
+        "Studied fundamental and applied concepts of atmospheric thermodynamics, including lapse rates, stability, and cloud formation processes under Dr. Shubhi Agarwal."
       ]
     },
     {
-      title: "Project 'Aether'",
-      company: "Personal Project",
-      period: "2023 - Present",
+      title: "Content Writer",
+      company: "Jammu Writers’ Club",
+      period: "2022 - Present",
       description: [
-        "Building a full-stack web application for real-time collaborative document editing using React, TypeScript, and a CRDT-based backend.",
-        "Implemented a user-friendly interface with rich text formatting capabilities.",
-        "Deployed the application on Vercel, with a backend running on Fly.io."
+        "Produced written content focusing on social, cultural, and environmental themes for organizational publications."
       ]
     }
   ],
   skills: [
-    { name: "JavaScript / TypeScript", level: 95 },
-    { name: "React / Next.js", level: 90 },
-    { name: "Python", level: 90 },
-    { name: "Node.js / Express", level: 85 },
-    { name: "SQL (PostgreSQL) / NoSQL (MongoDB)", level: 80 },
-    { name: "Cloud (AWS, Vercel)", level: 75 },
-    { name: "Docker & Kubernetes", level: 70 },
+    { name: "Content Writing & Oration", level: 95 },
+    { name: "Graphic & Creative Designing", level: 90 },
+    { name: "Python", level: 80 },
+    { name: "C++", level: 75 },
+    { name: "U–Pb Dating", level: 70 },
+    { name: "Languages (English, Hindi, Kashmiri, Urdu)", level: 95 },
+    { name: "Languages (Dogri, French)", level: 70 },
   ],
   responsibilities: [
     {
-      role: "Lead Developer",
-      organization: "Open Source Project 'Starlight'",
-      period: "2022 - Present",
-      description: "Leading the development of a community-driven data visualization library. Responsible for architectural decisions, code reviews, and mentoring new contributors."
+      role: "Founder and Teacher",
+      organization: "Nav Setu NGO",
+      period: "2023 - Present",
+      description: "Founded and taught underprivileged students, focusing on basic education and social upliftment."
     },
     {
-      role: "Teaching Assistant",
-      organization: "Stanford University",
-      period: "2022",
-      description: "Assisted in teaching 'CS229: Machine Learning'. Conducted office hours, graded assignments, and helped students with course material and projects."
+      role: "Creative Head",
+      organization: "Aalekhya, IISER-B",
+      period: "2025 - Present",
+      description: "Managed all the social media and content of the club."
+    },
+    {
+      role: "Youngest Representative",
+      organization: "Helpline Humanity (Government-Run NGO)",
+      period: "2015 - Present",
+      description: "Represented youth initiatives in projects related to Kashmiri Pandit relocation and rehabilitation."
     }
   ]
 };
