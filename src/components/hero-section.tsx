@@ -24,9 +24,11 @@ export default function HeroSection() {
       <h1 className="font-headline text-5xl md:text-7xl font-black bg-clip-text text-transparent bg-gradient-to-b from-primary to-accent transition-all duration-500 hover:tracking-wider">
         {name}
       </h1>
-      <p className="mt-4 text-lg md:text-2xl text-foreground/80 max-w-2xl">
-        {tagline}
-      </p>
+      <div className="mt-4 text-lg md:text-2xl text-foreground/80 max-w-2xl">
+        {tagline.split('\n').map((line, index) => (
+          <p key={index}>{line}</p>
+        ))}
+      </div>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <Button asChild variant="outline" size="lg" className="transition-transform duration-200 hover:scale-105">
           <Link href={links.resume} target="_blank" rel="noopener noreferrer">
