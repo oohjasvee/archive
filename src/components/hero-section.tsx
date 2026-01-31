@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { portfolioData } from '@/lib/portfolio-data';
-import { FileText, Linkedin, Mail, Github } from 'lucide-react';
+import { Linkedin, Mail, Github } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { ParticleTextEffect } from './ui/particle-text-effect';
 
@@ -29,12 +29,6 @@ export default function HeroSection() {
         ))}
       </div>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
-        <Button asChild variant="outline" size="lg" className="transition-transform duration-200 hover:scale-105">
-          <Link href={links.resume} target="_blank" rel="noopener noreferrer">
-            <FileText />
-            Resume
-          </Link>
-        </Button>
         <Button asChild variant="outline" size="lg" className="transition-transform duration-200 hover:scale-105">
           <Link href={links.linkedin} target="_blank" rel="noopener noreferrer">
             <Linkedin />
