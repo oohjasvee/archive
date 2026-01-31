@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { portfolioData } from '@/lib/portfolio-data';
-import { Github, Linkedin, Mail, Star } from 'lucide-react';
+import { Github, Linkedin, Mail, Cloud } from 'lucide-react';
 import { Button } from './ui/button';
 import { useToast } from '@/hooks/use-toast';
 
@@ -21,8 +21,8 @@ export default function Footer() {
     <footer className="border-t border-border/30 mt-16 md:mt-24">
       <div className="mx-auto max-w-7xl px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2 text-sm text-foreground/60">
-          <Star className="h-4 w-4 text-primary" />
-          <span>© {new Date().getFullYear()} Astral Portfolio</span>
+          <Cloud className="h-4 w-4 text-primary" />
+          <span>© {new Date().getFullYear()} Ojasvi Raina</span>
         </div>
         <div className="flex items-center gap-2">
           <Button asChild variant="ghost" size="icon" className="transition-transform duration-200 ease-in-out hover:scale-110 hover:text-primary">
