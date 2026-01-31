@@ -50,9 +50,9 @@ export const portfolioData = {
   skills: [
     { name: "Content Writing & Oration", level: 95 },
     { name: "Graphic & Creative Designing", level: 90 },
-    { name: "Python", level: 80 },
+    { name: "Python", level: 50 },
     { name: "C++", level: 75 },
-    { name: "U–Pb Dating", level: 70 },
+    { name: "U–Pb Dating", level: 95 },
     { name: "Languages (English, Hindi, Kashmiri, Urdu)", level: 95 },
     { name: "Languages (Dogri, French)", level: 70 },
   ],
