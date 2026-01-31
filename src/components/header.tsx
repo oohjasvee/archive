@@ -33,7 +33,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-7xl flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary transition-transform duration-200 hover:scale-105">
+        <Link href="/" className="font-headline flex items-center gap-2 font-bold text-lg text-primary transition-transform duration-200 hover:scale-105">
           <Star className="h-5 w-5" />
           <span>Astral Portfolio</span>
         </Link>
@@ -57,7 +57,7 @@ export default function Header() {
           </SheetTrigger>
           <SheetContent side="right" className="w-[300px]">
             <nav className="flex flex-col gap-6 pt-12">
-              <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary mb-4">
+              <Link href="/" className="font-headline flex items-center gap-2 font-bold text-lg text-primary mb-4">
                 <Star className="h-5 w-5" />
                 <span>Astral Portfolio</span>
               </Link>

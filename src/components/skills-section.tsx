@@ -7,7 +7,7 @@ export default function SkillsSection() {
     <section id="skills" className="max-w-4xl mx-auto">
       <Card className="bg-card/50 backdrop-blur-lg border-border/30 transition-all duration-300 hover:shadow-primary/20 hover:shadow-2xl hover:-translate-y-1">
         <CardHeader>
-          <CardTitle className="text-2xl font-bold text-primary">Skills</CardTitle>
+          <CardTitle className="font-headline text-2xl font-bold text-primary">Skills</CardTitle>
         </CardHeader>
         <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
           {portfolioData.skills.map((skill, index) => (
