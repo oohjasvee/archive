@@ -33,7 +33,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-7xl flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary">
+        <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary transition-transform duration-200 hover:scale-105">
           <Star className="h-5 w-5" />
           <span>Astral Portfolio</span>
         </Link>
@@ -42,7 +42,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-all duration-200 hover:scale-105"
             >
               {link.label}
             </Link>

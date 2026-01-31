@@ -14,17 +14,17 @@ export default function Footer() {
           <span>© {new Date().getFullYear()} Astral Portfolio</span>
         </div>
         <div className="flex items-center gap-2">
-          <Button asChild variant="ghost" size="icon">
+          <Button asChild variant="ghost" size="icon" className="transition-transform duration-200 ease-in-out hover:scale-110 hover:text-primary">
             <Link href={links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5" />
             </Link>
           </Button>
-          <Button asChild variant="ghost" size="icon">
+          <Button asChild variant="ghost" size="icon" className="transition-transform duration-200 ease-in-out hover:scale-110 hover:text-primary">
             <Link href={links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin className="h-5 w-5" />
             </Link>
           </Button>
-          <Button asChild variant="ghost" size="icon">
+          <Button asChild variant="ghost" size="icon" className="transition-transform duration-200 ease-in-out hover:scale-110 hover:text-primary">
             <Link href={links.email} aria-label="Email">
               <Mail className="h-5 w-5" />
             </Link>

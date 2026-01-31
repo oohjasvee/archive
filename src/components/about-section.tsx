@@ -4,7 +4,7 @@ import { portfolioData } from '@/lib/portfolio-data';
 export default function AboutSection() {
   return (
     <section id="about" className="max-w-4xl mx-auto">
-      <Card className="bg-card/50 backdrop-blur-lg border-border/30">
+      <Card className="bg-card/50 backdrop-blur-lg border-border/30 transition-all duration-300 hover:shadow-primary/20 hover:shadow-2xl hover:-translate-y-1">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-primary">About Me</CardTitle>
         </CardHeader>
