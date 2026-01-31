@@ -1,10 +1,21 @@
+"use client";
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { portfolioData } from '@/lib/portfolio-data';
 import { FileText, Linkedin, Mail, Github } from 'lucide-react';
+import { useToast } from '@/hooks/use-toast';
 
 export default function HeroSection() {
   const { name, tagline, links } = portfolioData;
+  const { toast } = useToast();
+
+  const showEmail = () => {
+    toast({
+      title: 'My Personal Email',
+      description: links.email,
+    });
+  };
 
   return (
     <section id="hero" className="relative flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] text-center px-4 py-20">
@@ -35,11 +46,9 @@ export default function HeroSection() {
             GitHub
           </Link>
         </Button>
-        <Button asChild variant="outline" size="lg" className="transition-transform duration-200 hover:scale-105">
-          <Link href={links.email}>
-            <Mail />
-            Email
-          </Link>
+        <Button variant="outline" size="lg" className="transition-transform duration-200 hover:scale-105" onClick={showEmail}>
+          <Mail />
+          Email
         </Button>
       </div>
     </section>

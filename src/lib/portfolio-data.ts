@@ -2,11 +2,11 @@
 export const portfolioData = {
   name: "Ojasvi Raina",
   tagline: "Earth and Environmental Sciences Student | Writer | Creative Leader",
-  about: "A dedicated student of Earth and Environmental Sciences at IISER Bhopal, with a minor in Biology. Passionate about atmospheric thermodynamics, geochemistry, and geology. Experienced content writer for social, cultural, and environmental themes. Active in leadership roles, including founding an NGO to teach underprivileged students and managing creative content for a college club.",
+  about: "A dedicated student of Earth and Environmental Sciences at IISER Bhopal, with a minor in Biology. Passionate about atmospheric thermodynamics, geochemistry, and geology. Experienced content writer for social, cultural, and environmental themes. Active in leadership roles, including founding an NGO to teach underprivileged students, and managing creative content for a college club.",
   links: {
     resume: "/assets/resume.pdf",
     linkedin: "https://linkedin.com/in/ojasvi-raina",
-    email: "mailto:ojasvi24@iiserb.ac.in",
+    email: "ojasvirainakcean@gmail.com",
     github: "https://github.com/oohjasvee",
   },
   education: [

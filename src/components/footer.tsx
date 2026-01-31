@@ -1,10 +1,21 @@
+"use client";
+
 import Link from 'next/link';
 import { portfolioData } from '@/lib/portfolio-data';
 import { Github, Linkedin, Mail, Star } from 'lucide-react';
 import { Button } from './ui/button';
+import { useToast } from '@/hooks/use-toast';
 
 export default function Footer() {
   const { links } = portfolioData;
+  const { toast } = useToast();
+
+  const showEmail = () => {
+    toast({
+      title: 'My Personal Email',
+      description: links.email,
+    });
+  };
 
   return (
     <footer className="border-t border-border/30 mt-16 md:mt-24">
@@ -24,10 +35,8 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
             </Link>
           </Button>
-          <Button asChild variant="ghost" size="icon" className="transition-transform duration-200 ease-in-out hover:scale-110 hover:text-primary">
-            <Link href={links.email} aria-label="Email">
+          <Button variant="ghost" size="icon" className="transition-transform duration-200 ease-in-out hover:scale-110 hover:text-primary" onClick={showEmail} aria-label="Email">
               <Mail className="h-5 w-5" />
-            </Link>
           </Button>
         </div>
       </div>
